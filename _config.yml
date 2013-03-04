@@ -11,6 +11,8 @@ pygments: true
 #
 title : Caleb Mingle
 tagline: Software Engineer at Mavenlink
+description: Personal blog of Caleb Mingle, a software engineer in San Francisco
+keywords: ["caleb mingle", "caleb", "caleb mingle", "software engineer", "bay area engineer", "bay area developers", "software developer", "mingle", "calebmingle"]
 author :
   name : Caleb Mingle
   email : me@caleb.io
