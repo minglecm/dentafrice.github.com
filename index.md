@@ -22,7 +22,7 @@ group: "navigation"
 ### Pages
 
 <ul class="pages">
-  {% for page in site.pages limit: 5 %}
+  {% for page in site.pages %}
   	{% if page.group != 'navigation' and page.group != 'feeds' %}
     <li>
   	  <a href="{{ page.url }}">{{ page.title }}</a>
