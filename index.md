@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: "Home"
+group: "navigation"
 ---
 {% include JB/setup %}
 
@@ -14,5 +16,17 @@ layout: default
     </li>
     </br> <em>{{ post.excerpt }} </em>
     </div>
+  {% endfor %}
+</ul>
+
+### Pages
+
+<ul class="pages">
+  {% for page in site.pages limit: 5 %}
+  	{% if page.group != 'navigation' and page.group != 'feeds' %}
+    <li>
+  	  <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+    {% endif %}
   {% endfor %}
 </ul>
