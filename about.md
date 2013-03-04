@@ -19,3 +19,5 @@ I've worked on jobs in a wide variety of industries besides software:
 + Sign and Decal Production
 
 I'm married to my beautiful wife Paige and we live in downtown San Francisco, CA.
+
+I love soda and am an active member of Dew Labs.
