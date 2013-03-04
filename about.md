@@ -9,7 +9,7 @@ My name is Caleb Mingle and I'm a software engineer at Mavenlink.
 
 I have 10+ years in web and application development and have worked on a wide variety of projects both business and consumer facing.
 
-I've worked on jobs in a wide variety of industries besides development:
+I've worked on jobs in a wide variety of industries besides software:
 
 + Alarm System Installer
 + Electrical Apprentice
