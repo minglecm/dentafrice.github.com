@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "About"
+group: main_nav
 ---
 {% include JB/setup %}
 
