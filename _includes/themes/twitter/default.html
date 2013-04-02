@@ -32,6 +32,14 @@
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
+    <style type="text/css">
+      @media (max-width: 767px) {
+        .hidden-phone {
+          display: none !important;
+        }
+      }
+    </style>
+
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -51,8 +59,8 @@
   <body>
     <div class="navbar">
       <div class="navbar-inner">
-        <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+        <div class="container-fluid">
+          <a class="brand" href="{{ HOME_PATH }}" style="padding-left: 0;">{{ site.title }}</a>
           <ul class="nav pull-right">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
@@ -73,16 +81,51 @@
       </div>
     </div>
 
-    <div class="container-narrow">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3 hidden-phone">
+          <div class="well" style="padding: 8px 0;">
+            <ul class="nav nav-list">
+              <li class="nav-header">Posts</li>
+              {% for post in site.posts limit: 5 %}
+                {% if page.url == post.url %}
+                <li class="active">
+                {% else %}
+                <li>
+                {% endif %}
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+              {% endfor %}
+              
+              <li class="nav-header">Pages</li>
+              {% for a_page in site.pages %}
+                {% if a_page.group != 'navigation' and a_page.group != 'feeds' %}
+                  {% if page.url == a_page.url %}
+                  <li class="active">
+                  {% else %}
+                  <li>
+                  {% endif %}
+                    <a href="{{ a_page.url }}">{{ a_page.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
 
-      <div class="content">
-        {{ content }}
+        <div class="span9">
+          <div class="content">
+            {{ content }}
+          </div>
+        </div>
       </div>
-      <hr>
-      <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.</p>
-      </footer>
 
+      <div class="row-fluid">
+        <hr>
+        <footer>
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.</p>
+        </footer>
+      </div>
     </div>
 
     {% include JB/analytics %}

@@ -1,32 +1,24 @@
 ---
-layout: page
+layout: default
 title: "Home"
 group: "navigation"
+tagline: "test"
 ---
 {% include JB/setup %}
 
-### Articles
+{% for post in site.posts limit: 1 %}
+  <div class="page-header">
+    <h1>{{ post.title }} {% if post.tagline %}<small>{{post.tagline}}</small>{% endif %}</h1>
+  </div>
 
-<ul class="posts">
-{% for post in site.posts limit: 5 %}
-  <div class="post_info">
-    <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span>({{ post.date | date_to_long_string }})</span>
-    </li>
-    </br> <em>{{ post.excerpt }} </em>
+  <div class="row-fluid post-full">
+    <div class="span12">
+      <div class="date">
+        <strong>{{ post.date | date_to_long_string }}</strong>
+      </div>
+      <div class="content">
+        {{ post.content }}
+      </div>
     </div>
-  {% endfor %}
-</ul>
-
-### Pages
-
-<ul class="pages">
-  {% for page in site.pages %}
-  	{% if page.group != 'navigation' and page.group != 'feeds' %}
-    <li>
-  	  <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+  </div>
+{% endfor %}
