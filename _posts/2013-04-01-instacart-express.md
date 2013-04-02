@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Instacart has disappointed me."
-tagline: "Instacart Express"
+title: "I'm disappointed by Instacart."
 description: ""
-category: "rant"
+category: "life"
 tags: ["delivery", "startups"]
 ---
 {% include JB/setup %}
