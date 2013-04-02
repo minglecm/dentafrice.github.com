@@ -10,16 +10,16 @@ tags: ["delivery", "startups"]
 ![](/assets/instacart.png)
 
 I try to resist complaining, but one of my favorite startups have let me down in a big way.
+ 
+Last year when the same-day grocery delivery company, Instacart launched and introduced what they called “Instacart Express”, a premium-subscription service that replaces the individual Instacart delivery fee ($7.99) with a yearly fee of $99 instead, I immediately signed up and joined the Express club.
+ 
+Things have been great until sometime during mid-March 2013, I started noticing some odd charges on my credit card for Instacart-delivered groceries. It turned out, I’ve been getting charged a $7.99 delivery fee on orders totaling under $35.
 
-Last year when Instacart first offered what they called "Instacart Express", I jumped on the wagon and paid the $99.00 for unlimited free deliveries.
+This confused me as I’m already explicitly paying the $99 per year to avoid paying a delivery charge for each individual order. This is the reason I use Instacart vs. my other favorite, Postmates (who charge a minimum of $7.99 per order).
 
-Around mid-march I started noticing some odd charges for deliveries. I was getting charged a **$7.99** delivery fee on orders that are under $35.
+I immediately went and checked the terms located at [https://www.instacart.com/terms](https://www.instacart.com/terms) and it seems that there is no mention of either Instacart Express or  their delivery fees so I was unable to check why I was being charged. (I’ve since searched the entire site and can’t find any information regarding their delivery policy, let alone anything about Instacart Express).
 
-I'm explicitly paying this money up front per/year to avoid delivery charges per/order.  This is the reason I use Instacart vs. my other favorite, Postmates (who have a $7.99 per order fee).
-
-I immediately went and checked the terms [located here](https://www.instacart.com/terms) and it seems that there is no mention of either Instacart Express or delivery fees.  I can't find any other delivery terms or policies on the site regarding this.  
-
-So I emailed Instacart…
+So I emailed Instacart to find out what was up..
 
 > Hi Instacart,
 >
@@ -32,7 +32,7 @@ So I emailed Instacart…
 > Thanks,
 > Caleb
 
-The next morning, I get my response…
+The next morning I received this reply:
 
 > HI Caleb
 >
@@ -45,12 +45,18 @@ The next morning, I get my response…
 > Please let me know if you have any questions.
 > Mike
 
-It seems that they've made some changes to their policy but yet I did not receive an email, my wife didn't receive an email, nor did a collegue who also has Instacart Express receive an email.  We did however get the usual free delivery notification via Instacart (2 or 3 per week), but none of us have received this "policy update" email, nor have we seen a Tweet or otherwise mention of this change.
+This would be a somewhat understandable change were it not for the fact that I..
+ 
++ a) Signed up for a year’s worth of free deliveries. Not a year’s worth of free deliveries over $35. Regardless of the change, they should honor what I signed up at least until my subscription expires.
+ 
++ b) Did not receive an email about this change of policy. Not only did I not receive this email, neither did my wife nor a colleague, who also is a Instacart Express user.
 
-I'm highly disappointed that this feature was modified in this way and even more disappointed that more of an effort was not made to contact me regarding this change or even a link in the email response to the updated terms that I can see.
-
-I plan on not using Instacart again for the foreseable future until they can work out these kinks in notifying customers about large policy changes that affect the things they've paid for.
+ We all have however received plenty of advertisements from Instacart regarding feature announcements, etc, which makes me wonder if an email was sent out at all. Please let me know if you did receive an email about this change.
+ 
+I’m highly disappointed that the service was modified in this way and even more disappointed that more of an effort was not made to contact me regarding this change or even a link in the email response to the updated terms that I can see.
+ 
+I don’t plan on using Instacart again for the foreseeable future until they can work out these kinks in notifying customers about large policy changes that affect the things they’ve already paid for.
 
 ---
 
-**TL;DR:** Instacart offers free unlimited delivery on orders for $99 a year, they seem to have silently changed their policy and now charged $7.99 p/delivery for orders under $35.  They also claim to have sent an email regarding this policy that at least 3 people have not received.
+**TL;DR** Instacart offered a premium subscription called Instacart Express that waives delivery fees on all orders for $99 a year.  They seem to have silently changed their policy and now charge $7.99 p/delivery on orders that are under $35.  They also claim to have sent an email regarding this policy that at least 3 people have not received nor have they publicly posted any announcement of this policy change on their website.
