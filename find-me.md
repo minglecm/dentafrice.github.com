@@ -14,7 +14,7 @@ I can be found all across the web it seems, click below to see my profiles.
     <li class="nav-header">Social</li>
     <li><a href="http://facebook.com/calebmingle">Facebook</a></li>
     <li><a href="http://twitter.com/caleb_io">Twitter</a></li>
-    <li><a href="http://instagram.com/caleb_mingle">Instagram</a></li>
+    <li><a href="http://instagram.com/nginear">Instagram</a></li>
     <li><a href="http://about.me/dentafrice">About.me</a></li>
     <li><a href="https://plus.google.com/111298864743164460719">Google+</a></li>
     <li><a href="http://pinterest.com/calebio">Pinterest</a></li>
