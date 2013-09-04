@@ -13,18 +13,22 @@ Right now it's just a module that you can install as a Node package or you can c
 
 It behaves similar to the way that Ruby handles including a module. You use `include` and then an optional `included` callback is fired.
 
+([Source](https://github.com/dentafrice/coffeescript-mixins))
+
 ---
 
 ## Usage
 
 ### Initializing
 
+#### Node
+
     npm install coffeescript-mixins
 
     mixins = require 'coffeescript-mixins'
     mixins.bootstrap() # mixes include into Function.prototype
 
-or for the **Web** ([GitHub](https://github.com/dentafrice/coffeescript-mixins)):
+#### The Web
 
     https://github.com/dentafrice/coffeescript-mixins
 
