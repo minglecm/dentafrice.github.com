@@ -6,7 +6,7 @@ category: about
 ---
 {% include JB/setup %}
 
-My name is Caleb Mingle and I'm a software engineer at Mavenlink.
+My name is Caleb Mingle and I'm a software engineer at Uber.
 
 I have 10+ years in web and application development and have worked on a wide variety of business and consumer applications.
 
@@ -19,7 +19,7 @@ I've worked on jobs in a wide variety of industries besides software:
 + Cabinetmaking
 + Sign and Decal Production
 
-I'm married to my beautiful wife Paige and we live in the Parkside neighborhood of San Francisco, CA.
+Me and my wife Paige live near the ocean in the Sunset of San Francisco, CA.
 
 I love all kinds of soda and am addicted to Mountain Dew.
 
